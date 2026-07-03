@@ -218,6 +218,3 @@ def wind_graph(date, lat, long):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
-
-print("USERNAME:", os.getenv("METEOMATICS_USERNAME"))
-print("PASSWORD:", os.getenv("METEOMATICS_PASSWORD"))
