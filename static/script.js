@@ -574,3 +574,5 @@ async function loadWindGraph(date, lat, lng) {
 
     Plotly.newPlot('windGraph', [trace], layout, { displayModeBar: false, responsive: true });
 }
+
+// random commewnt
